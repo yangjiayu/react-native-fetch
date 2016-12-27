@@ -1,7 +1,3 @@
-/*
- *@flow
- */
-
 import config from './config';
 import {
   loggerFetch,
