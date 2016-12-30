@@ -7,7 +7,7 @@ import {
   postFetch,
   getFetch,
   promiseTimeout
-} from '../util/httpHelper';
+} from './fetch';
 
 const requestUrl = (path) => config.url + path;
 const requestWrap = promiseTimeout(config.time); //设置超时时间
